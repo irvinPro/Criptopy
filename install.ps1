@@ -13,6 +13,8 @@ python -m pip install --upgrade pip
   
 pip install cryptography
 
+pip install steganography
+
 pip install termcolor
 
 pip install pyperclip

@@ -1,9 +1,11 @@
 import console as cons
 import fernet as fernet
+import estegano as estegano
 
 class menu(object):
     opc = False
     submenu1 = False
+    submenu2 = False
     
     def __init__(self):
         cons.banner()                
@@ -24,4 +26,17 @@ class menu(object):
                 fernet.get_opcion_fertnet(self.submenu1)
             else:
                 break
-        
+
+    def menu_Estegano(self):
+        while True:
+            cons.instrucciones_Opcion2()
+            print("1) Ocultar mensaje")
+            print("2) Mostrar mensaje")
+            print("3) Salir")
+            self.submenu2 = int(input(" ... "))
+            if self.submenu1 == 3:
+                break
+            else:
+                estegano.get_opcion_estegano(self.submenu2)
+                break
+            

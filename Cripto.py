@@ -8,10 +8,9 @@ if __name__ == "__main__":
          M = menu()
       
          if M.opc == 1:
-             M.menu_Encriptar()
-             print(M.submenu1)
-         elif M.opc == 2:
-             print ("Opcion 2")
+             M.menu_Encriptar()             
+         elif M.opc == 2:             
+             M.menu_Estegano()
          elif M.opc == 3:         
              break
          else:

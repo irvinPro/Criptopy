@@ -53,3 +53,15 @@ def instrucciones_Opcion1():
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
   """    
     print(colored(msg,'yellow'))
+
+def instrucciones_Opcion2():
+    banner()
+    msg = """
+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+
+ |F|o|r|m|a|t|o|s| |A|c|e|p|t|a|d|o|s|:|
+ +-+-+-+-+-++-+-+-++-+-+-+-+-++-+-+-++-+
+   |J|P|G|  |P|N|G|  |B|N|P|  |G|I|F|   
+   +-+-+-+  +-+-+-+  +-+-+-+  +-+-+-+   
+  """    
+    print(colored(msg,'yellow'))
+    
